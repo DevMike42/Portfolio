@@ -34,11 +34,36 @@ h1, h2, p {
     vertical-align: middle;
 }
 
-#bio-img {
+#about-content h2 {
+    color: #00CCCC;
+}
+
+#img-border {
     max-width: 60%;
     height: auto;
-    border: 2px solid #00CCCC;
+    margin: auto;
+    padding: 2px;
+    background-color: #00CCCC;
+}
+
+#bio-img {
+    height: auto;
+    /* Shadow effect */
     -webkit-box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
--moz-box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
-box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
+    box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
+    /* Grayscale */
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    border: 2px solid #00CCCC;
+}
+
+.skills-container {
+    height: 100%;
+    background-color: #e6e6e6;
+}
+
+.projects-container {
+    height: 100%;
+    background-color: #e6e6e6;
 }
