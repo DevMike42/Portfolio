@@ -1,3 +1,30 @@
-.navbar1 {
-    height: 70px;
+/* #intro {
+    height:100%;
+    background-color: black;
+    background-size: cover;
+} */
+html, body {
+    height: 100%;
+}
+
+.intro-container {
+    height: 100%;
+    display: table;
+    background-color: black;
+}
+
+.inner {
+    display:table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+#logo-main {
+    max-width: 60%;
+    height: auto;
+}
+
+.about-container {
+    height: 100%;
 }
