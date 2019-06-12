@@ -32,7 +32,6 @@ h1, h2, p {
 #about-content {
     padding: 2rem;
     height: auto;
-    /* vertical-align: middle; */
 }
 
 #about-content h2 {
@@ -62,6 +61,32 @@ h1, h2, p {
 .skills-container {
     height: 100vh;
     background-color: lightblue;
+}
+
+#skills-heading {
+    float: left;
+    height: 20vh;
+    padding: 2rem;
+    color: #00CCCC;
+}
+
+#skills-content {
+    padding: 2rem;
+    height: 65vh;
+    width:auto;
+}
+
+#skills-footer {
+    height: 5vh;
+}
+
+#skills-content h3 {
+    color: #00CCCC;
+}
+
+#skills-item {
+    padding: 2rem;
+    margin-left: 4rem;
 }
 
 .projects-container {
