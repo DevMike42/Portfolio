@@ -65,19 +65,23 @@ h1, h2, p {
 
 #skills-heading {
     float: left;
-    height: 20vh;
-    padding: 2rem;
+    height: 15vh;
+    padding: 5rem;
     color: #00CCCC;
 }
 
 #skills-content {
+    margin-left: 5rem;
     padding: 2rem;
-    height: 65vh;
+    height: 40vh;
     width:auto;
 }
 
 #skills-footer {
-    height: 5vh;
+    height: 25vh;
+    width: 60vw;
+    margin: auto;
+    text-align: center;
 }
 
 #skills-content h3 {
@@ -87,6 +91,19 @@ h1, h2, p {
 #skills-item {
     padding: 2rem;
     margin-left: 4rem;
+}
+
+#resume-thumbnail {
+    height: 12rem;
+}
+
+#resume-link {
+    color: #00CCCC;
+    font-size: 2rem;
+}
+
+.skills-footer-item {
+    margin: auto;
 }
 
 .projects-container {
