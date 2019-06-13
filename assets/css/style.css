@@ -2,7 +2,7 @@ html, body {
     height: 100%;
 }
 
-h1, h2, p {
+h1, h2, h4, p {
     font-family: sans-serif;
 }
 
@@ -109,4 +109,36 @@ h1, h2, p {
 .projects-container {
     height: 100vh;
     background-color: lightgreen;
+}
+
+#project-group {
+    margin: 3rem;
+}
+
+#project-img {
+    background-color: #00CCCC;
+    border: none;
+    /* Shadow effect */
+    -webkit-box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
+    box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
+}
+
+.project-content h4 {
+    padding: 1rem;
+    color: #00CCCC;
+}
+
+.footer-content {
+    background-color:#00CCCC;
+    color: #00CCCC;
+}
+
+.footer-left {
+    float: left;
+}
+
+.footer-right {
+    float: right;
+    display: inline-block;
 }
