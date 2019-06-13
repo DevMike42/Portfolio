@@ -128,3 +128,17 @@ h1, h2, h4, p {
     padding: 1rem;
     color: #00CCCC;
 }
+
+.footer-content {
+    background-color:#00CCCC;
+    color: #00CCCC;
+}
+
+.footer-left {
+    float: left;
+}
+
+.footer-right {
+    float: right;
+    display: inline-block;
+}
