@@ -32,6 +32,10 @@ h1, h2, h4, p {
     background-color: #e6e6e6;
 }
 
+#about-item h2 {
+    color: #00CCCC;
+}
+
 #about-heading-div {
     height: 15vh;
     padding: 5rem;
@@ -67,7 +71,7 @@ h1, h2, h4, p {
 
 #skills-container {
     height: 100vh;
-    background-color: lightblue;
+    background-color: #e6e6e6;
 }
 
 #skills-heading-div {
@@ -117,7 +121,7 @@ h1, h2, h4, p {
 
 #projects-container {
     /* height: 100vh; */
-    background-color: lightgreen;
+    background-color: #e6e6e6;
 }
 
 #projects-container h2, h3 {
