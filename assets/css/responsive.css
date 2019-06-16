@@ -33,79 +33,137 @@
     }
 }
 
-@media screen and (max-width: 425px) {
-    p {
-        font-size: .7rem;
-    }
+/* ============= UP TO 575 ============= */
 
-    #about-item {
-        margin-bottom: 1rem;
-    }
+@media screen and (max-width: 575px) {
 
-    #img-border {
-        max-width: 50%;
-    }
-
-    br {
-        display: none;
-    }
-
-    #about-heading {
-        font-size: 1rem;
-        text-align: center;
-    }
-
-    #about-content {
-        padding: 2rem;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    p {
-        font-size: .7rem;
-    }
-
-    #about-item p {
-        margin-bottom: .5rem;
-    }
-
-    #about-item {
-        margin-bottom: 1rem;
-    }
-
-    #img-border {
-        max-width: 50%;
-    }
-
-    br {
-        display: none;
-    }
-
-    #about-heading {
-        font-size: 1rem;
-        text-align: center;
-    }
-
-    #about-content {
-        padding: 2rem;
-    }
-}
-
-@media screen and (max-width: 320px) {
     p {
         font-size: .5rem;
     }
 
+    #about-heading-div {
+        /* height: 10vh; */
+        padding: .5rem;
+    }
+    
+    #about-heading {
+        font-size: 1rem;
+        /* text-align: center; */
+        padding: 2rem;
+    }
+    
+    #about-content {
+        padding: 2rem;
+    }
+    
     #about-item {
         margin-bottom: 2rem;
     }
 
-    #about-heading {
-        font-size: 1rem;
-        text-align: center;
+    #bio-img-background {
+        max-width: 35%;
     }
 
-    #about-content {
+    /* ------ SKILL SECTION ------ */
+
+    #skills-content {
+        height: 55vh;
+        margin-left: -3rem;
+        padding: 0rem;
+    }
+
+    #skills-heading-div {
+        /* height: 10vh; */
+        padding: .5rem;
+    }
+    
+    #skills-heading {
+        font-size: 1rem;
+        text-align: center;
         padding: 2rem;
     }
+
+    #skills-item {
+        padding: 0rem;
+    }
+
+    #skills-ul-heading {
+        font-size: .75rem;
+    }
+
+    #skills-item li {
+        font-size: .5rem;
+    }
+
+    #skills-footer {
+        width: 90vw;
+    }
+
+    #skills-footer-item {
+        margin: 1rem;
+        padding: 2rem;
+    }
+
+    #skills-footer-item a {
+        font-size: .5rem;
+    }
+
+    #resume-thumbnail {
+        height: 6rem;
+    }
+
+
+    /* ----------------------- */
+
+    #p1-img1 {
+        margin-left: 2rem;
+    }
+
+    #p1-img2 {
+        left: 14rem;
+        margin-top: 1.5rem;
+    }
+
+    #p1-img3 {
+        left: 18rem;
+        margin-top: 3.5rem;
+    }
+
+    #p2-img1 {
+        margin-left: 1.5rem;
+    }
+
+    #p2-img2 {
+        left: 10rem;
+        margin-top: 1.5rem;
+    }
+
+    #p2-img3 {
+        left: 17rem;
+        margin-top: 3rem;
+    }
+
+    #project-heading {
+        margin-left: 3rem;
+    }
+
+    #project-heading h3 {
+        font-size: 1rem;
+    }
+
+    #project-info {
+        margin-left: 2rem;
+        margin-top: -.5rem;
+        margin-bottom: -.5rem;
+    }
+
+    #project-info span {
+        font-size: .5rem;
+        margin: 1px 1px 1px 0;
+    }
+
+    .seperator {
+        height: 3rem;
+    }
+
 }

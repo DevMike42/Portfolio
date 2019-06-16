@@ -30,13 +30,15 @@
     <!-- END Landing Page -->
 
     <!-- About Me Section -->
-    <section id="about" class="about-container container-fluid">
-        <div class="row align-self-start">
-            <h2 id="skills-heading">About</h2>
+    <section id="about-container" class="container-fluid">
+        <div id="about-heading-div" class="row align-self-start">
+            <div class="col-xs-12">
+                <h2 id="about-heading">About</h2>
+            </div>
         </div>
         <div id="about-content" class="row align-items-center">
-            <div id="about-item" class="col-xs-12 col-lg-6">
-                <div id="img-border">
+            <div id="about-img" class="col-xs-12 col-lg-6">
+                <div id="bio-img-background">
                     <img id="bio-img" class="img-fluid mx-auto d-block" src="assets/images/Bio-Image.jpg"
                         alt="Bio Image">
                 </div>
@@ -63,13 +65,15 @@
     <!-- END About Me Section -->
 
     <!-- Skills / Resume Section -->
-    <section id="skills" class="skills-container container-fluid">
-        <div class="row align-self-start">
-            <h2 id="skills-heading">Skills</h2>
+    <section id="skills-container" class="container-fluid">
+        <div id="skills-heading-div" class="row align-self-start">
+            <div class="col-xs-12">
+                <h2 id="skills-heading">Skills</h2>
+            </div>
         </div>
         <div id="skills-content" class="row">
-            <div id="skills-item" class="col-lg-2">
-                <h3>LANGUAGES</h3>
+            <div id="skills-item" class="col-xs-12 col-lg-2">
+                <h3 id="skills-ul-heading">LANGUAGES</h3>
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
@@ -78,10 +82,10 @@
                     <li>JSX</li>
                 </ul>
             </div>
-            <div id="skills-item" class="col-lg-4">
-                <h3>TOOLS & FRAMEWORKS</h3>
+            <div id="skills-item" class="col-xs-12 col-lg-4">
+                <h3 id="skills-ul-heading">TOOLS & FRAMEWORKS</h3>
                 <div class="row">
-                    <div id="" class="col-lg-6">
+                    <div id="" class="col-xs-6">
                         <ul>
                             <li>React</li>
                             <li>Bootstrap</li>
@@ -91,7 +95,7 @@
                             <li>JQuery</li>
                         </ul>
                     </div>
-                    <div id="" class="col-lg-6">
+                    <div id="" class="col-xs-6">
                         <ul>
                             <li>Node.js</li>
                             <li>MySQL</li>
@@ -103,8 +107,8 @@
                     </div>
                 </div>
             </div>
-            <div id="skills-item" class="col-lg-4">
-                <h3>CONCEPTS</h3>
+            <div id="skills-item" class="col-xs-12 col-lg-4">
+                <h3 id="skills-ul-heading">CONCEPTS</h3>
                 <ul>
                     <li>C.R.U.D.</li>
                     <li>Responsive Design</li>
@@ -117,19 +121,19 @@
             </div>
         </div>
         <div id="skills-footer" class="row align-self-end justify-content-center">
-            <div class="col-lg-6">
-                <div class="skills-footer-item">
+            <div id="skills-footer-item" class="col-xs-6 justify-selft-start">
+                <div>
                     <img id="resume-thumbnail" src="assets/images/Michael Rivera Resume.png" alt="resume-thumbnail">
                 </div>
-                <div class="skills-footer-item">
+                <div>
                     <a id="resume-link" href="assets/resume/Michael Rivera Resume.pdf" target="_blank">View Resume</a>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <div class="skills-footer-item">
+            <div id="skills-footer-item" class="col-xs-6 justify-self-end">
+                <div>
                     <img id="resume-thumbnail" src="assets/images/Michael Rivera Resume.png" alt="resume-thumbnail">
                 </div>
-                <div class="skills-footer-item">
+                <div>
                     <a id="resume-link" href="assets/resume/Michael Rivera Resume.pdf" target="_blank">View Resume</a>
                 </div>
             </div>
@@ -140,79 +144,85 @@
 
 
     <!-- Projects V2 Section -->
-    <section id="projects-v2" class="projects-v2-container container-fluid">
-            <div class="row align-self-start">
-                <h2 id="skills-heading">Recent Projects v2</h2>
+    <section id="projects-container" class="projects-v2-container container-fluid">
+        <div id="prjoects-heading-div" class="row align-self-start">
+            <div class="col-xs-12">
+                <h2 id="skills-heading">Recent Projects</h2>
             </div>
-            <div class="project-v2-container">
-                <div class="project-v2-content">
-                    <div class="project-v2-img-conatiner">
-                        <img id="p1-img1" src="assets/images/project1-img1.png" alt="P1 img1">
-                        <img id="p1-img2" src="assets/images/project1-img2.png" alt="P1 img2">
-                        <img id="p1-img3" src="assets/images/project1-img3.png" alt="P1 img3">
+        </div>
+        <div>
+            <div>
+                <div>
+                    <img id="p1-img1" src="assets/images/project1-img1.png" alt="P1 img1">
+                    <img id="p1-img2" src="assets/images/project1-img2.png" alt="P1 img2">
+                    <img id="p1-img3" src="assets/images/project1-img3.png" alt="P1 img3">
+                </div>
+                <div class="row">
+                    <div id="project-heading" class="col-xs-3">
+                        <h3>MadPass</h3>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-3 project-info">
-                            <h3>MadPass</h3>
-                        </div>
+                </div>
+                <div class="row">
+                    <div id="project-info" class="col-xs-10">
+                        <p>MADPass is the basic implementation of a password manger app. With MADPass, a user only has
+                            to remember one login and password for the app itself. All other login credentials are
+                            encrypted and stored in the user's Vault to be accessed quickly and easily.</p>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-10 project-info">
-                            <p>MADPass is the basic implementation of a password manger app. With MADPass, a user only has to remember one login and password for the app itself. All other login credentials are encrypted and stored in the user's Vault to be accessed quickly and easily.</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-12 project-info">
-                            <span class="techs-used">MongoDB</span>
-                            <span class="techs-used">Express.js</span>
-                            <span class="techs-used">React.js</span>
-                            <span class="techs-used">Node.js</span>
-                            <span class="techs-used">bcrypt</span>
-                            <span class="techs-used">crypto.js</span>
-                            <span class="techs-used">JWT</span>
-                        </div>
+                </div>
+                <div class="row">
+                    <div id="project-info" class="col-lg-12">
+                        <span class="techs-used">MongoDB</span>
+                        <span class="techs-used">Express.js</span>
+                        <span class="techs-used">React.js</span>
+                        <span class="techs-used">Node.js</span>
+                        <span class="techs-used">bcrypt</span>
+                        <span class="techs-used">crypto.js</span>
+                        <span class="techs-used">JWT</span>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="seperator">
+        <div class="seperator">
 
-            </div>
+        </div>
 
-            <div class="project-v2-container">
-                    <div class="project-v2-content">
-                        <div class="project-v2-img-conatiner">
-                            <img id="p2-img1" src="assets/images/project2-img1.png" alt="P1 img1">
-                            <img id="p2-img2" src="assets/images/project2-img2.png" alt="P1 img2">
-                            <img id="p2-img3" src="assets/images/project2-img3.png" alt="P1 img3">
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-3 project-info">
-                                <h3>Reflect</h3>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-10 project-info">
-                                <p>Reflect is a type of journaling application designed for those who want a little more out of their daily entries. It allows a user to record their daily thoughts while recording their mood and time of day to be used in generating graphs showing the data supplied.
-                                    </p>
-                            </div>
-                        </div>
-                        <div class="row">
-                                <div class="col-lg-12 project-info">
-                                    <span class="techs-used">HTML</span>
-                                    <span class="techs-used">CSS</span>
-                                    <span class="techs-used">JQuery</span>
-                                    <span class="techs-used">Node.js</span>
-                                    <span class="techs-used">Express.js</span>
-                                    <span class="techs-used">MySQL</span>
-                                    <span class="techs-used">Sequelize</span>
-                                </div>
-                            </div>
+        <div>
+            <div>
+                <div>
+                    <img id="p2-img1" src="assets/images/project2-img1.png" alt="P1 img1">
+                    <img id="p2-img2" src="assets/images/project2-img2.png" alt="P1 img2">
+                    <img id="p2-img3" src="assets/images/project2-img3.png" alt="P1 img3">
+                </div>
+                <div class="row">
+                    <div id="project-heading" class="col-lg-3">
+                        <h3>Reflect</h3>
                     </div>
                 </div>
-            
-        </section>
-        <!-- END Projects V2 Section -->
+                <div class="row">
+                    <div id="project-info" class="col-lg-10">
+                        <p>Reflect is a type of journaling application designed for those who want a little more out of
+                            their daily entries. It allows a user to record their daily thoughts while recording their
+                            mood and time of day to be used in generating graphs showing the data supplied.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="project-info" class="col-lg-12">
+                        <span class="techs-used">HTML</span>
+                        <span class="techs-used">CSS</span>
+                        <span class="techs-used">JQuery</span>
+                        <span class="techs-used">Node.js</span>
+                        <span class="techs-used">Express.js</span>
+                        <span class="techs-used">MySQL</span>
+                        <span class="techs-used">Sequelize</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- END Projects V2 Section -->
 
     <!-- Footer -->
     <footer class=container-fluid">
