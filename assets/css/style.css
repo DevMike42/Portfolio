@@ -24,10 +24,16 @@ h1, h2, h4, p {
     height: auto;
 }
 
+/* ------ PROJECTS SECTION ------ */
+
 #about-container {
     height: 100vh;
     width: 100vw;
     background-color: #e6e6e6;
+}
+
+#about-item h2 {
+    color: #00CCCC;
 }
 
 #about-heading-div {
@@ -65,7 +71,7 @@ h1, h2, h4, p {
 
 #skills-container {
     height: 100vh;
-    background-color: lightblue;
+    background-color: #e6e6e6;
 }
 
 #skills-heading-div {
@@ -79,13 +85,6 @@ h1, h2, h4, p {
     padding: 2rem;
     height: 40vh;
     width:auto;
-}
-
-#skills-footer {
-    height: 25vh;
-    width: 60vw;
-    margin: auto;
-    text-align: center;
 }
 
 #skills-content h3 {
@@ -106,15 +105,23 @@ h1, h2, h4, p {
     font-size: 2rem;
 }
 
-.skills-footer-item {
+#skills-footer {
+    height: 25vh;
+    width: 80vw;
     margin: auto;
+    text-align: center;
 }
 
-/* ------ SKILL SECTION ------ */
+#skills-footer-item {
+    margin: 2rem 6rem;
+    padding: 1rem;
+}
+
+/* ------ PROJECTS SECTION ------ */
 
 #projects-container {
     /* height: 100vh; */
-    background-color: lightgreen;
+    background-color: #e6e6e6;
 }
 
 #projects-container h2, h3 {
@@ -192,14 +199,14 @@ h1, h2, h4, p {
 }
 
 #project-heading {
-    margin-left: 1.5rem;
+    margin-left: 5rem;
     margin-top: 1.5rem;
 }
 
 #project-info {
     margin-left: 5rem;
-    margin-top: 1.5rem;
-    padding: 1rem;
+    margin-top: 0;
+    padding: .5rem;
 }
 
 .techs-used {
@@ -211,12 +218,6 @@ h1, h2, h4, p {
     border: 2px solid #00CCCC;
     border-radius: 3px;
     padding: 2px 7px;
-
-    /* padding: 2px 7px;
-    border-radius: 3px;
-    color: var(--cool-blue-color);
-    border: 1px solid var(--cool-blue-color);
-    background: 0 0; */
 }
 
 .seperator {

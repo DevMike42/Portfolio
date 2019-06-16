@@ -5,7 +5,17 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+        <!-- Waypoints -->
+        <script src="assets/js/noframework.waypoints.min.js"></script>
+        <!-- My JavaScript -->
+        <script src="assets/js/logic.js"></script>
 
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="assets/css/animate.css">
     <!-- My CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Responsive (Media Queries) -->
@@ -13,6 +23,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 
     <title>Michael Rivera</title>
 </head>
@@ -22,7 +33,7 @@
     <section id="intro" class="intro-container container-fluid">
         <div class="inner">
             <div id="intro-content" class="container-fluid">
-                <img id="logo-main" class="img-fluid mx-auto d-block" src="assets/images/Color logo - no background.png"
+                <img id="logo-main" class="img-fluid mx-auto d-block animated" src="assets/images/Color logo - no background.png"
                     alt="logo-main">
             </div>
         </div>
@@ -33,18 +44,18 @@
     <section id="about-container" class="container-fluid">
         <div id="about-heading-div" class="row align-self-start">
             <div class="col-xs-12">
-                <h2 id="about-heading">About</h2>
+                <h2 id="about-heading" class="animated">About</h2>
             </div>
         </div>
         <div id="about-content" class="row align-items-center">
-            <div id="about-img" class="col-xs-12 col-lg-6">
+            <div id="about-img" class="col-xs-12 col-lg-6 animated">
                 <div id="bio-img-background">
                     <img id="bio-img" class="img-fluid mx-auto d-block" src="assets/images/Bio-Image.jpg"
                         alt="Bio Image">
                 </div>
             </div>
-            <div id="about-item" class="col-xs-12 col-lg-6">
-                <h2 id="about-heading">Get to know me</h2>
+            <div id="about-item" class="col-xs-12 col-lg-6 animated">
+                <h2 id="about-headng" class="aniated">Get to know me</h2>
                 <br>
                 <p>My name is Michael Rivera and I’m a highly organized individual who pays close attention to detail. I
                     have 10+ years of experience in the bicycle industry as a mechanic hunting down and solving every
@@ -68,10 +79,10 @@
     <section id="skills-container" class="container-fluid">
         <div id="skills-heading-div" class="row align-self-start">
             <div class="col-xs-12">
-                <h2 id="skills-heading">Skills</h2>
+                <h2 id="skills-heading" class="animated">Skills</h2>
             </div>
         </div>
-        <div id="skills-content" class="row">
+        <div id="skills-content" class="row animated">
             <div id="skills-item" class="col-xs-12 col-lg-2">
                 <h3 id="skills-ul-heading">LANGUAGES</h3>
                 <ul>
@@ -82,7 +93,7 @@
                     <li>JSX</li>
                 </ul>
             </div>
-            <div id="skills-item" class="col-xs-12 col-lg-4">
+            <div id="skills-item" class="col-xs-12 col-lg-4 skills-item-2 animated">
                 <h3 id="skills-ul-heading">TOOLS & FRAMEWORKS</h3>
                 <div class="row">
                     <div id="" class="col-xs-6">
@@ -120,7 +131,7 @@
                 </ul>
             </div>
         </div>
-        <div id="skills-footer" class="row align-self-end justify-content-center">
+        <div id="skills-footer" class="row align-self-end justify-content-center animated">
             <div id="skills-footer-item" class="col-xs-6 justify-selft-start">
                 <div>
                     <img id="resume-thumbnail" src="assets/images/Michael Rivera Resume.png" alt="resume-thumbnail">
@@ -145,17 +156,17 @@
 
     <!-- Projects V2 Section -->
     <section id="projects-container" class="projects-v2-container container-fluid">
-        <div id="prjoects-heading-div" class="row align-self-start">
+        <div id="projects-heading-div" class="row align-self-start">
             <div class="col-xs-12">
-                <h2 id="skills-heading">Recent Projects</h2>
+                <h2 id="projects-heading" class="animated">Recent Projects</h2>
             </div>
         </div>
         <div>
             <div>
                 <div>
-                    <img id="p1-img1" src="assets/images/project1-img1.png" alt="P1 img1">
-                    <img id="p1-img2" src="assets/images/project1-img2.png" alt="P1 img2">
-                    <img id="p1-img3" src="assets/images/project1-img3.png" alt="P1 img3">
+                    <img id="p1-img1" class="animated" src="assets/images/project1-img1.png" alt="P1 img1">
+                    <img id="p1-img2" class="animated" src="assets/images/project1-img2.png" alt="P1 img2">
+                    <img id="p1-img3" class="animated" src="assets/images/project1-img3.png" alt="P1 img3">
                 </div>
                 <div class="row">
                     <div id="project-heading" class="col-xs-3">
@@ -190,9 +201,9 @@
         <div>
             <div>
                 <div>
-                    <img id="p2-img1" src="assets/images/project2-img1.png" alt="P1 img1">
-                    <img id="p2-img2" src="assets/images/project2-img2.png" alt="P1 img2">
-                    <img id="p2-img3" src="assets/images/project2-img3.png" alt="P1 img3">
+                    <img id="p2-img1" class="animated" src="assets/images/project2-img1.png" alt="P1 img1">
+                    <img id="p2-img2" class="animated" src="assets/images/project2-img2.png" alt="P1 img2">
+                    <img id="p2-img3" class="animated" src="assets/images/project2-img3.png" alt="P1 img3">
                 </div>
                 <div class="row">
                     <div id="project-heading" class="col-lg-3">
@@ -244,6 +255,10 @@
 
 
     <!-- Optional JavaScript -->
+    <!-- Waypoints JS link -->
+    <!-- <script src="/path/to/noframework.waypoints.min.js"></script> -->
+    <!-- Jquery -->
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
