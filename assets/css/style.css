@@ -225,6 +225,25 @@ h1, h2, h4, p {
 }
 
 
+/* ------ PROJECTS SECTION ------ */
+
+#footer-container {
+    background-color: #e6e6e6;
+    padding: 3rem;
+}
+
+.footer-col {
+    margin: auto;
+}
+
+#footer-col-right {
+    text-align: right;
+}
+
+.media-links a {
+    margin: 0 1rem;
+}
+
 
 
 
@@ -242,6 +261,6 @@ h1, h2, h4, p {
 }
 
 .footer-right {
-    float: right;
+    /* float: right; */
     display: inline-block;
 }

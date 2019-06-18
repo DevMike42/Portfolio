@@ -2,9 +2,9 @@ $(document).ready(function () {
     $('#about-heading').css('opacity', 0);
     $('#about-img').css('opacity', 0);
     $('#about-item').css('opacity', 0);
-    $('#skills-heading').css('opacity', 0);
+    // $('#skills-heading').css('opacity', 0);
     // $('#skills-content').css('opacity', 0);
-    $('#skills-footer').css('opacity', 0);
+    // $('#skills-footer').css('opacity', 0);
     $('#projects-heading').css('opacity', 0);
     $('#p1-img1').css('opacity', 0);
     $('#p1-img2').css('opacity', 0);
@@ -50,23 +50,23 @@ $(document).ready(function () {
         offset: '80%'
     });
 
-    let skillsContent = new Waypoint({
-        element: document.getElementById('skills-content'),
-        handler: function () {
-            skillsContent.element.classList.add('flipInX');
-            skillsContent.element.classList.add('slow');
-        },
-        offset: '80%'
-    });
+    // let skillsContent = new Waypoint({
+    //     element: document.getElementById('skills-content'),
+    //     handler: function () {
+    //         skillsContent.element.classList.add('flipInX');
+    //         skillsContent.element.classList.add('slow');
+    //     },
+    //     offset: '80%'
+    // });
 
-    let skillsFooter = new Waypoint({
-        element: document.getElementById('skills-footer'),
-        handler: function () {
-            skillsFooter.element.classList.add('fadeInUp');
-            skillsFooter.element.classList.add('slow');
-        },
-        offset: '80%'
-    });
+    // let skillsFooter = new Waypoint({
+    //     element: document.getElementById('skills-footer'),
+    //     handler: function () {
+    //         skillsFooter.element.classList.add('fadeInUp');
+    //         skillsFooter.element.classList.add('slow');
+    //     },
+    //     offset: '80%'
+    // });
 
     let projectsHeading = new Waypoint({
         element: document.getElementById('projects-heading'),
