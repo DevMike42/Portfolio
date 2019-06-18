@@ -6,6 +6,10 @@ h1, h2, h4, p {
     font-family: sans-serif;
 }
 
+h1 {
+    font-size: 4rem;
+}
+
 .intro-container {
     height: 100vh;
     display: table;
