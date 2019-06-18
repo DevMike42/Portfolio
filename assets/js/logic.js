@@ -50,23 +50,23 @@ $(document).ready(function () {
     //     offset: '80%'
     // });
 
-    // let skillsContent = new Waypoint({
-    //     element: document.getElementById('skills-content'),
-    //     handler: function () {
-    //         skillsContent.element.classList.add('flipInX');
-    //         skillsContent.element.classList.add('slow');
-    //     },
-    //     offset: '80%'
-    // });
+    let skillsContent = new Waypoint({
+        element: document.getElementById('skills-content'),
+        handler: function () {
+            skillsContent.element.classList.add('slideInUp');
+            skillsContent.element.classList.add('slow');
+        },
+        offset: '80%'
+    });
 
-    // let skillsFooter = new Waypoint({
-    //     element: document.getElementById('skills-footer'),
-    //     handler: function () {
-    //         skillsFooter.element.classList.add('fadeInUp');
-    //         skillsFooter.element.classList.add('slow');
-    //     },
-    //     offset: '80%'
-    // });
+    let skillsFooter = new Waypoint({
+        element: document.getElementById('skills-footer'),
+        handler: function () {
+            skillsFooter.element.classList.add('slideInUp');
+            skillsFooter.element.classList.add('slow');
+        },
+        offset: '80%'
+    });
 
     // let projectsHeading = new Waypoint({
     //     element: document.getElementById('projects-heading'),
