@@ -26,8 +26,8 @@
     
     #about-heading {
         font-size: 2rem;
-        /* text-align: center; */
         padding: 1rem 2rem;
+        margin-bottom: 1rem;
     }
     
     #about-content {
@@ -58,6 +58,7 @@
     #skills-heading-div {
         height: 10vh;
         padding: .5rem;
+        margin-bottom: 1rem;
     }
     
     #skills-heading {
@@ -69,7 +70,6 @@
         height: 75vh;
         margin-left: -2rem;
         padding: 0rem;
-        margin-top: 1rem;
     }
     
     #skills-item {
@@ -94,7 +94,7 @@
     }
 
     #skills-footer-item a {
-        font-size: .5rem;
+        font-size: 1rem;
     }
 
     #resume-thumbnail {
@@ -145,15 +145,16 @@
     }
 
     #project-heading {
-        margin-left: 3rem;
+        margin-left: 2rem;
+        margin-top: 2rem;
     }
 
     #project-heading h3 {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     .project-links {
-        font-size: .5rem;
+        font-size: 1rem;
     }
 
     #project-info {
@@ -203,6 +204,7 @@
 
     .media-links {
         width: 8rem;
+        font-size: .5rem;
     }
 
     .media-links a {
