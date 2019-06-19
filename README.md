@@ -13,9 +13,9 @@ This Portfolio Page provides potential employers with a window into who they'll 
 * Email
 
 Technologies used to make my profile:
-* HTML5
-* Bootstrap - CSS Framework
-* Font Awesome - Library for vectors, icons, etc.
-* Animate.CSS - Tool for animating HTML elements
-* Waypoints - Tool for detecting HTML element positions in the browser
-* JQuery - JavaScript Library for targeting elements
+* `HTML5`
+* `Bootstrap` - CSS Framework
+* `Font Awesome` - Library for vectors, icons, etc.
+* `Animate.CSS` - Tool for animating HTML elements
+* `Waypoints` - Tool for detecting HTML element positions in the browser
+* `JQuery` - JavaScript Library for targeting elements
