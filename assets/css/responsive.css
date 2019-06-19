@@ -4,11 +4,15 @@
 @media screen and (max-width: 575px) {
 
     .intro-div {
-        height: 75vh;
+        height: 65vh;
+    }
+
+    #intro-content {
+        padding-top: 12rem;
     }
 
     #scroll-link-div {
-        height: 25vh;
+        height: 35vh;
     }
 
     p {
