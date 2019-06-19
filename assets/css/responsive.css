@@ -66,7 +66,7 @@
     }
     
     #skills-content {
-        height: 80vh;
+        height: 75vh;
         margin-left: -2rem;
         padding: 0rem;
         margin-top: 1rem;
@@ -98,7 +98,8 @@
     }
 
     #resume-thumbnail {
-        display: none;
+        /* display: none; */
+        height: 3rem;
     }
 
 
@@ -151,10 +152,18 @@
         font-size: 1rem;
     }
 
+    .project-links {
+        font-size: .5rem;
+    }
+
     #project-info {
         margin-left: 2rem;
         margin-top: -.5rem;
         margin-bottom: -.5rem;
+    }
+
+    #project-info p {
+        font-size: 1rem;
     }
 
     #project-info span {

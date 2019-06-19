@@ -70,10 +70,10 @@ $(document).ready(function () {
     let skillsFooter = new Waypoint({
         element: document.getElementById('skills-footer'),
         handler: function () {
-            skillsFooter.element.classList.add('fadeIn');
+            skillsFooter.element.classList.add('jackInTheBox');
             skillsFooter.element.classList.add('slow');
         },
-        offset: '80%'
+        offset: '90%'
     });
 
     // let projectsHeading = new Waypoint({
