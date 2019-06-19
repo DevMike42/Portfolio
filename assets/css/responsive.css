@@ -20,7 +20,7 @@
     
     #about-content {
         padding: 1rem 2rem;
-        height: 80vh;
+        height: 90vh;
     }
     
     #about-item {
@@ -54,7 +54,7 @@
     }
     
     #skills-content {
-        height: 68vh;
+        height: 80vh;
         margin-left: -2rem;
         padding: 0rem;
         margin-top: 1rem;
