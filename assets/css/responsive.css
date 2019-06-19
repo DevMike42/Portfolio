@@ -3,6 +3,14 @@
 
 @media screen and (max-width: 575px) {
 
+    .intro-div {
+        height: 75vh;
+    }
+
+    #scroll-link-div {
+        height: 25vh;
+    }
+
     p {
         font-size: .5rem;
     }
