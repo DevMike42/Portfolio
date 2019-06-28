@@ -1,6 +1,6 @@
 # My Portfolio
 
-https://www.michaelsrivera.com
+https://michaelsrivera.com
 
 ## Overview
 
