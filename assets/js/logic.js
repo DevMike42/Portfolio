@@ -5,6 +5,9 @@ $(document).ready(function () {
     $('#about-item').css('opacity', 0);
     // $('#skills-heading').css('opacity', 0);
     // $('#skills-content').css('opacity', 0);
+    // $('#skills-col1').css('opacity', 0);
+    // $('#skills-col2').css('opacity', 0);
+    // $('#skills-col3').css('opacity', 0);
     // $('#skills-footer').css('opacity', 0);
     // $('#projects-heading').css('opacity', 0);
     $('#p1-img1').css('opacity', 0);
@@ -58,19 +61,46 @@ $(document).ready(function () {
     //     offset: '80%'
     // });
 
-    let skillsContent = new Waypoint({
+    // let skillsContent = new Waypoint({
+    //     element: document.getElementById('skills-content'),
+    //     handler: function () {
+    //         skillsContent.element.classList.add('fadeIn');
+    //         skillsContent.element.classList.add('slow');
+    //     },
+    //     offset: '80%'
+    // });
+
+    let skillsCol1 = new Waypoint({
+        element: document.getElementById('skills-col1'),
+        handler: function () {
+            skillsCol1.element.classList.add('flipInX');
+            skillsCol1.element.classList.add('slow');
+        },
+        offset: '90%'
+    });
+
+    let skillsCol2 = new Waypoint({
+        element: document.getElementById('skills-col2'),
+        handler: function () {
+            skillsCol2.element.classList.add('flipInX');
+            skillsCol2.element.classList.add('slow');
+        },
+        offset: '90%'
+    });
+
+    let skillsCol3 = new Waypoint({
         element: document.getElementById('skills-content'),
         handler: function () {
-            skillsContent.element.classList.add('fadeIn');
-            skillsContent.element.classList.add('slow');
+            skillsCol3.element.classList.add('flipInX');
+            skillsCol3.element.classList.add('slow');
         },
-        offset: '80%'
+        offset: '90%'
     });
 
     let skillsFooter = new Waypoint({
         element: document.getElementById('skills-footer'),
         handler: function () {
-            skillsFooter.element.classList.add('zoomIn');
+            skillsFooter.element.classList.add('flipInX');
             skillsFooter.element.classList.add('slow');
         },
         offset: '90%'
