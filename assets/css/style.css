@@ -9,19 +9,20 @@ h1, h2, h4, p {
 
 h1 {
     font-size: 4rem;
-    color: #2a2a2a;
-    border-bottom: 2px solid #00CCCC;
+    color: #1f3666;
+    border-bottom: 2px solid #009ed4;
 }
 
 h3, h2 {
-    text-decoration: underline #5a5a5a;
+    text-decoration: underline #1f3666;
     text-underline-position: under;
 }
 
 .intro-container {
     height: 90vh;
     display: table;
-    background-color: #1e4d69;
+    background-color: #bcbcbc;
+    background-attachment: fixed;
 }
 
 .intro-div {
@@ -37,7 +38,7 @@ h3, h2 {
 }
 
 #logo-main {
-    max-width: 80vw;
+    max-width: 50vw;
     height: auto;
 }
 
@@ -46,25 +47,25 @@ h3, h2 {
 }
 
 #scroll-link {
-    color: #00CCCC;
+    color: #1f3666;
 }
 
-/* ------ PROJECTS SECTION ------ */
+/* ------ ABOUT SECTION ------ */
 
 #portfolio {
     height: 100vh;
     width: 100vw;
-    background-color: #e6e6e6;
+    background-color: white;
 }
 
 #about-item h2 {
-    color: #00CCCC;
+    color: #009ed4;
 }
 
 #about-heading-div {
     height: 15vh;
     padding: 5rem;
-    color: #00CCCC;
+    color: #1f3666;
 }
 
 #about-content {
@@ -77,7 +78,7 @@ h3, h2 {
     height: auto;
     margin: auto;
     padding: 2px;
-    background-color: #00CCCC;
+    background-color: #009ed4;
 }
 
 #bio-img {
@@ -89,20 +90,20 @@ h3, h2 {
     /* Grayscale */
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
-    border: 2px solid #00CCCC;
+    border: 2px solid #009ed4;
 }
 
 /* ------ SKILL SECTION ------ */
 
 #skills-container {
     height: 100vh;
-    background-color: #e6e6e6;
+    background-color: white;
 }
 
 #skills-heading-div {
     height: 15vh;
     padding: 5rem;
-    color: #00CCCC;
+    color: #1f3666;
 }
 
 #skills-content {
@@ -113,10 +114,10 @@ h3, h2 {
 }
 
 #skills-content h3 {
-    color: #00CCCC;
+    color: #009ed4;
 }
 
-#skills-item {
+.skills-item {
     padding: 2rem;
     margin-left: 4rem;
 }
@@ -131,9 +132,9 @@ h3, h2 {
 }
 
 #resume-link {
-    color: #00CCCC;
+    color: #009ed4;
     font-size: 2rem;
-    text-decoration: underline #5a5a5a;
+    text-decoration: underline #BCBCBC;
     text-underline-position: under;
 }
 
@@ -153,17 +154,17 @@ h3, h2 {
 
 #projects-container {
     /* height: 100vh; */
-    background-color: #e6e6e6;
+    background-color: white;
 }
 
 #projects-container h2, h3 {
-    color: #00CCCC;
+    color: #1f3666;
 }
 
 #projects-heading-div {
     height: 15vh;
     padding: 5rem;
-    color: #00CCCC;
+    color: #1f3666;
 }
 
 #p1-img1 {
@@ -236,9 +237,13 @@ h3, h2 {
     display: inline-flex;
 }
 
+#project-heading h3 {
+    color: #009ed4;
+}
+
 .project-links a {
     margin-left: 1rem;
-    color: #00CCCC;
+    color: #009ed4;
 }
 
 #project-info {
@@ -252,8 +257,8 @@ h3, h2 {
     margin: 3px 3px 3px 0;
     font-size: 1.1rem;
     font-weight: bolder;
-    color: #00CCCC;
-    border: 2px solid #00CCCC;
+    color: #009ed4;
+    border: 2px solid #009ed4;
     border-radius: 3px;
     padding: 2px 7px;
 }
@@ -266,7 +271,7 @@ h3, h2 {
 /* ------ PROJECTS SECTION ------ */
 
 #footer-container {
-    background-color: #e6e6e6;
+    background-color: white;
     padding: 3rem;
 }
 
@@ -280,13 +285,13 @@ h3, h2 {
 
 .media-links a {
     margin: 0 2rem;
-    color: #00CCCC;
+    color: #009ed4;
 }
 
 
 .footer-content {
-    background-color:#00CCCC;
-    color: #00CCCC;
+    background-color:#1f3666;
+    color: #009ed4;
 }
 
 .footer-left {
