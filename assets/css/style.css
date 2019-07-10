@@ -40,6 +40,11 @@ h3, h2 {
 #logo-main {
     max-width: 50vw;
     height: auto;
+    margin: auto;
+}
+
+#logo-mobile {
+    display: none;
 }
 
 #scroll-link-div {
@@ -60,6 +65,7 @@ h3, h2 {
 
 #about-item h2 {
     color: #009ed4;
+    margin-bottom: 2rem;
 }
 
 #about-heading-div {
