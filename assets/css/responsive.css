@@ -1,5 +1,5 @@
 
-/* ============= UP TO 575 ============= */
+/* ======================== UP TO 575 ======================== */
 
 @media screen and (max-width: 575px) {
 
@@ -219,4 +219,94 @@
         margin: 0 .5rem;
         width: 8rem;
     }
+}
+
+/* ======================== md (Up to 767px width) ======================== */
+
+@media screen and (max-width: 768px) {
+
+    /* ------- Landing Page ------- */
+
+    #logo-main {
+        max-width: 65vw;
+    }
+
+    /* ------- About Section ------- */
+
+    #bio-img-background {
+        max-width: 40%;
+        margin: auto auto auto 5rem;
+    }
+
+    #about-item {
+        padding: 3rem 4rem;
+    }
+
+    #about-item h2 {
+        margin-bottom: 2rem;
+    }
+
+    p {
+        font-size: 1.25rem;
+    }
+
+    /* ------- Skills Section ------- */
+
+    #skills-content {
+        margin-left: 0;
+    }
+
+    #skills-col1 {
+        margin: 0 auto;
+        max-width: 30%;
+    }
+
+    #skills-col2 {
+        margin: 0 auto;
+        max-width: 30%;
+    }
+
+    #skills-col3 {
+        margin: 0 auto;
+        max-width: 30%;
+    }
+
+    #skills-content h3 {
+        font-size: 1.5rem;
+    }
+
+    a#resume-link {
+        font-size: 1.75rem;
+    }
+
+    #resume-thumbnail {
+        height: 6rem;
+    }
+
+    #skills-footer {
+        margin: 8rem auto;
+    }
+
+    /* ------- Projects Section ------- */
+
+    #p1-img2 {
+        left: 27rem;
+        margin-top: 1.5rem;
+    }
+
+    #p1-img3 {
+        left: 35rem;
+        margin-top: 3rem;
+    }
+
+    #p2-img2 {
+        left: 20rem;
+        margin-top: 3.5rem;
+    }
+
+    #p2-img3 {
+        left: 32rem;
+        margin-top: 5rem;
+    }
+
 }
