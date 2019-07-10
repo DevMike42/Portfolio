@@ -12,7 +12,7 @@
 
     #logo-mobile {
         display: inline;
-        width: 62%;
+        max-width: 62%;
         margin: 9rem auto;
     }
 
