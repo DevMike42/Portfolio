@@ -11,8 +11,8 @@
     }
 
     #logo-mobile {
-        display: inherit;
-        width: 62%;
+        display: inline;
+        max-width: 62%;
         margin: 9rem auto;
     }
 
