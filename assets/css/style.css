@@ -237,6 +237,90 @@ h3, h2 {
     box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
 }
 
+#p3-img1 {
+    max-width: 60%;
+    position: relative;
+    margin-left: 5rem;
+    /* Shadow effect */
+    -webkit-box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
+    box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
+}
+
+#p3-img2 {
+    max-width: 56%;
+    position: absolute;
+    left: 26rem;
+    margin-top: 6.5rem;
+    /* Shadow effect */
+    -webkit-box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
+    box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
+}
+
+#p4-img1 {
+    max-width: 60%;
+    position: relative;
+    margin-left: 5rem;
+    /* Shadow effect */
+    -webkit-box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
+    box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
+}
+
+#p4-img2 {
+    max-width: 60%;
+    position: absolute;
+    left: 28rem;
+    margin-top: 2.5rem;
+    /* Shadow effect */
+    -webkit-box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
+    box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
+}
+
+#p5-img1 {
+    max-width: 60%;
+    position: relative;
+    margin-left: 5rem;
+    /* Shadow effect */
+    -webkit-box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
+    box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
+}
+
+#p5-img2 {
+    max-width: 60%;
+    position: absolute;
+    left: 24rem;
+    margin-top: 2.5rem;
+    /* Shadow effect */
+    -webkit-box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
+    box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
+}
+
+#p5-img3 {
+    max-width: 60%;
+    position: absolute;
+    left: 40rem;
+    margin-top: 5rem;
+    /* Shadow effect */
+    -webkit-box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
+    box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
+}
+
+#p6-img1 {
+    max-width: 60%;
+    position: relative;
+    margin-left: 5rem;
+    /* Shadow effect */
+    -webkit-box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
+    box-shadow: -5px 10px 28px -4px rgba(0,0,0,0.75);
+}
+
 #project-heading {
     margin-left: 5rem;
     margin-top: 1.5rem;
